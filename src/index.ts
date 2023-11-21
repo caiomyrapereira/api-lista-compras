@@ -1,9 +1,9 @@
 import 'reflect-metadata';
-import * as express from 'express';
+import express from 'express';
 import * as bodyParser from 'body-parser';
 import routes from './routes';
 import { AppDataSource } from './data-source';
-import * as cors from "cors";
+import cors from "cors";
 
 
 
